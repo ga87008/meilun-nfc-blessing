@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">美崙浸信會第一會堂插畫</title>
+  <desc id="desc">奶油白與鼠尾草綠色系的扁平線條教堂插畫，不含文字。</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfaf3"/><stop offset="1" stop-color="#e8e9dc"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#83927a"/><stop offset="1" stop-color="#65765d"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d6ddcc"/><stop offset="1" stop-color="#aab8a0"/>
+    </linearGradient>
+    <g id="window">
+      <path d="M0 40 V19 Q18 -9 36 19 V40 Z" fill="url(#glass)" stroke="#7b8a72" stroke-width="3"/>
+      <path d="M18 2 V40 M2 25 H34" fill="none" stroke="#f7f5ed" stroke-width="2.5"/>
+      <path d="M5 21 L18 2 L31 21" fill="none" stroke="#f7f5ed" stroke-width="2"/>
+    </g>
+    <g id="tallWindow">
+      <path d="M0 66 V25 Q21 -10 42 25 V66 Z" fill="url(#glass)" stroke="#77876e" stroke-width="3"/>
+      <path d="M21 3 V66 M3 39 H39 M3 53 H39" fill="none" stroke="#f7f5ed" stroke-width="2.5"/>
+      <path d="M4 24 L21 3 L38 24" fill="none" stroke="#f7f5ed" stroke-width="2"/>
+    </g>
+  </defs>
+  <rect width="900" height="600" fill="#f7f5ed"/>
+  <ellipse cx="450" cy="545" rx="350" ry="23" fill="#68775f" opacity=".13"/>
+  <!-- rear right wing -->
+  <path d="M485 236 H782 V526 H485 Z" fill="url(#wall)" stroke="#aab4a0" stroke-width="3"/>
+  <path d="M478 236 H790 V257 H478 Z" fill="url(#roof)" stroke="#65765d" stroke-width="3"/>
+  <g fill="#f7f5ed" stroke="#8a9780" stroke-width="3">
+    <rect x="500" y="222" width="29" height="27" rx="3"/>
+    <rect x="573" y="222" width="29" height="27" rx="3"/>
+    <rect x="646" y="222" width="29" height="27" rx="3"/>
+    <rect x="719" y="222" width="29" height="27" rx="3"/>
+  </g>
+  <g>
+    <use href="#window" x="512" y="275"/>
+    <use href="#window" x="561" y="275"/>
+    <use href="#window" x="633" y="275"/>
+    <use href="#window" x="682" y="275"/>
+    <use href="#tallWindow" x="508" y="348"/>
+    <use href="#tallWindow" x="560" y="348"/>
+    <use href="#tallWindow" x="632" y="348"/>
+    <use href="#tallWindow" x="684" y="348"/>
+    <path d="M487 332 H780 M487 434 H780" stroke="#aab4a0" stroke-width="3"/>
+  </g>
+  <!-- bell tower -->
+  <path d="M351 150 L407 88 L463 150 Z" fill="url(#wall)" stroke="#75856c" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M341 150 H473 V166 H341 Z" fill="url(#roof)" stroke="#65765d" stroke-width="3"/>
+  <path d="M407 32 V88 M388 51 H426" stroke="#74856a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M360 166 H454 V363 H360 Z" fill="url(#wall)" stroke="#83917a" stroke-width="4"/>
+  <circle cx="407" cy="211" r="19" fill="#c8d1bf" stroke="#75856c" stroke-width="4"/>
+  <path d="M391 295 V258 Q407 228 423 258 V295 Z" fill="url(#glass)" stroke="#75856c" stroke-width="3"/>
+  <path d="M407 243 V295 M394 263 L407 246 L420 263" fill="none" stroke="#f7f5ed" stroke-width="2.5"/>
+  <path d="M367 167 V363 M447 167 V363" stroke="#c9d0bf" stroke-width="5"/>
+  <!-- main church body -->
+  <path d="M113 349 L364 233 L615 349 V526 H113 Z" fill="url(#wall)" stroke="#aeb8a4" stroke-width="3"/>
+  <path d="M95 351 L364 220 L633 351" fill="none" stroke="url(#roof)" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M101 353 L364 229 L627 353" fill="none" stroke="#fdfbf4" stroke-width="3" stroke-linejoin="round"/>
+  <!-- facade buttresses -->
+  <g fill="url(#wall)" stroke="#89977f" stroke-width="3">
+    <path d="M119 354 H143 V526 H119 Z"/><path d="M110 343 H152 V359 H110 Z"/>
+    <path d="M222 300 H242 V526 H222 Z"/><path d="M213 292 H251 V307 H213 Z"/>
+    <path d="M493 300 H513 V526 H493 Z"/><path d="M484 292 H522 V307 H484 Z"/>
+    <path d="M588 354 H610 V526 H588 Z"/><path d="M581 343 H618 V359 H581 Z"/>
+  </g>
+  <!-- small Gothic windows on facade -->
+  <use href="#window" x="157" y="390"/>
+  <use href="#window" x="262" y="373"/>
+  <use href="#window" x="458" y="373"/>
+  <use href="#window" x="535" y="390"/>
+  <path d="M158 490 V470 Q174 442 190 470 V490 Z" fill="url(#glass)" stroke="#7b8a72" stroke-width="3"/>
+  <path d="M174 450 V490 M160 475 H188" stroke="#f7f5ed" stroke-width="2"/>
+  <!-- central entrance arch -->
+  <path d="M284 428 V365 Q364 260 444 365 V428 Z" fill="#d9dfcf" stroke="#7a8970" stroke-width="5"/>
+  <path d="M300 428 V370 Q364 286 428 370 V428 Z" fill="#b4c0a9" stroke="#f7f5ed" stroke-width="4"/>
+  <path d="M319 428 V378 Q364 319 409 378 V428 Z" fill="url(#glass)" stroke="#718267" stroke-width="3"/>
+  <path d="M364 350 V428 M322 390 H406 M343 365 L364 350 L385 365" fill="none" stroke="#f7f5ed" stroke-width="3"/>
+  <path d="M278 429 H450" stroke="#75856c" stroke-width="6" stroke-linecap="round"/>
+  <!-- broad entrance steps -->
+  <path d="M286 431 H442 L500 526 H228 Z" fill="#ecebe0" stroke="#a7b19c" stroke-width="3"/>
+  <g stroke="#b5beaa" stroke-width="3">
+    <path d="M291 443 H437"/><path d="M283 456 H445"/><path d="M275 469 H453"/>
+    <path d="M267 482 H461"/><path d="M259 495 H469"/><path d="M250 508 H478"/>
+  </g>
+  <path d="M280 432 L224 526 M448 432 L504 526" fill="none" stroke="#fbfaf4" stroke-width="12"/>
+  <path d="M280 432 L224 526 M448 432 L504 526" fill="none" stroke="#a5b09a" stroke-width="3"/>
+  <!-- lower side doors -->
+  <path d="M177 526 V483 Q198 448 219 483 V526 Z" fill="#b7c2ad" stroke="#819075" stroke-width="3"/>
+  <path d="M508 526 V483 Q529 448 550 483 V526 Z" fill="#b7c2ad" stroke="#819075" stroke-width="3"/>
+  <!-- base line -->
+  <path d="M99 526 H789" stroke="#718167" stroke-width="4" stroke-linecap="round"/>
+</svg>
